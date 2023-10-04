@@ -3,7 +3,7 @@ const selector = (element) => document.querySelector(element);
 const movieTemplate = (movie) => {
   return `<article>
       <main class="w-42 h-44 lg:w-50 lg:h-56 mb-4">
-        <img src=${movie.image} alt="img" class="w-full h-full" />
+        <img src="./images/${movie.image}" alt="img" class="w-full h-full" />
       </main>
       <div class="flex flex-col gap-2 capitalize px-3">
         <p class="text-neutral-500">${movie.date}</p>

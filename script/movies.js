@@ -1,30 +1,30 @@
 const latest = [
   {
-    image: ".././images/latest1.png",
+    image: "latest1.png",
     date: "usa, 2016-current",
     title: "stranger things",
     type: "action, adventure, horror",
   },
   {
-    image: ".././images/latest2.png",
+    image: "latest2.png",
     date: "usa, 2016-current",
     title: "batman begin",
     type: "action thriller",
   },
   {
-    image: ".././images/latest3.png",
+    image: "latest3.png",
     date: "usa, 2016-current",
     title: "spide-man into the spider verse",
     type: "action thriller",
   },
   {
-    image: ".././images/latest4.png",
+    image: "latest4.png",
     date: "usa, 2020",
     title: "shang-chi legend of the ten rign",
     type: "action",
   },
   {
-    image: ".././images/latest5.png",
+    image: "latest5.png",
     date: "usa, 2021",
     title: "Dune",
     type: "action, thriller",
@@ -33,31 +33,31 @@ const latest = [
 
 const bollywood = [
   {
-    image: ".././images/bolly1.png",
+    image: "bolly1.png",
     date: "india, 2020",
     title: "satyamev jayate",
     type: "action, adventure",
   },
   {
-    image: ".././images/bolly2.png",
+    image: "bolly2.png",
     date: "india, 2018-current",
     title: "raees",
     type: "action thriller",
   },
   {
-    image: ".././images/bolly3.png",
+    image: "bolly3.png",
     date: "india, 2020-current",
     title: "bajirao mastani",
     type: "action",
   },
   {
-    image: ".././images/bolly4.png",
+    image: "bolly4.png",
     date: "india, 2020-current",
     title: "drishyam",
     type: "adventure thriller",
   },
   {
-    image: ".././images/bolly5.png",
+    image: "bolly5.png",
     date: "india, 2020-current",
     title: "kabir singh",
     type: "adventure action",
@@ -66,31 +66,31 @@ const bollywood = [
 
 const hollywood = [
   {
-    image: ".././images/holly1.png",
+    image: "holly1.png",
     date: "usa, 2016-current",
     title: "dunkrik",
     type: "adventure",
   },
   {
-    image: ".././images/holly2.png",
+    image: "holly2.png",
     date: "india, 2020-current",
     title: "no time to die",
     type: "adventure action",
   },
   {
-    image: ".././images/holly3.png",
+    image: "holly3.png",
     date: "usa, 2019-current",
     title: "don't breathe",
     type: "adventure thriller",
   },
   {
-    image: ".././images/holly4.png",
+    image: "holly4.png",
     date: "usa, 2019-current",
     title: "avengers-endgame",
     type: "action",
   },
   {
-    image: ".././images/holly5.png",
+    image: "holly5.png",
     date: "india, 2016-current",
     title: "the outpost",
     type: "adventure action",
@@ -99,31 +99,31 @@ const hollywood = [
 
 const webSeries = [
   {
-    image: ".././images/web1.png",
+    image: "web1.png",
     date: "usa, 2016-current",
     title: "tedboundry tapes",
     type: "adventure, action",
   },
   {
-    image: ".././images/web2.png",
+    image: "web2.png",
     date: "usa, 2016-current",
     title: "sherlock",
     type: "adventure, action",
   },
   {
-    image: ".././images/web3.png",
+    image: "web3.png",
     date: "india, 2020-current",
     title: "live-Telecast",
     type: "adventure, action, thriller",
   },
   {
-    image: ".././images/web6.png",
+    image: "web6.png",
     date: "india, 2022-current",
     title: "the fame game",
     type: "adventure, action",
   },
   {
-    image: ".././images/web5.png",
+    image: "web5.png",
     date: "india, 2019-current",
     title: "mirzapur",
     type: "adventure action",
@@ -132,31 +132,31 @@ const webSeries = [
 
 const anime = [
   {
-    image: ".././images/anim1.png",
+    image: "anim1.png",
     date: "japan, 2016-current",
     title: "dragoon bell z",
     type: "action",
   },
   {
-    image: ".././images/anim2.png",
+    image: "anim2.png",
     date: "japan, 2017-current",
     title: "death note",
     type: "action",
   },
   {
-    image: ".././images/anim3.png",
+    image: "anim3.png",
     date: "japan, 2017-current",
     title: "one punch man",
     type: "action",
   },
   {
-    image: ".././images/anim4.png",
+    image: "anim4.png",
     date: "japan, 2018-current",
     title: "avater",
     type: "action",
   },
   {
-    image: ".././images/anim5.png",
+    image: "anim5.png",
     date: "japan, 2018-current",
     title: "naruto",
     type: "action",
