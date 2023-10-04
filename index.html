@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
-  <body class="bg-gray-900 overflow-x-hidden">
+  <body class="bg-gray-900 scroll-smooth overflow-x-hidden">
     <!-- Mobile Menu -->
     <header
       class="w-screen fixed top-0 text-white bg-neutral-950 px-2 py-1 z-10 lg:hidden"
@@ -67,11 +67,21 @@
             <img src="./images/Logo.png" class="w-10 mt-2" />
           </div>
           <div class="flex items-center gap-4 capitalize text-sm">
-            <a href="#">Movies <i class="fa fa-angle-down"></i> </a>
-            <a href="#">tvShow <i class="fa fa-angle-down"></i> </a>
-            <a href="#">genres <i class="fa fa-angle-down"></i> </a>
-            <a href="#">web Series <i class="fa fa-angle-down"></i> </a>
-            <a href="#">Anime <i class="fa fa-angle-down"></i> </a>
+            <a href="#latest" class="hover:text-neutral-600">
+              Movies <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#" class="hover:text-neutral-600">
+              tvShow <i class="fa fa-angle-down"> </i>
+            </a>
+            <a href="#" class="hover:text-neutral-600"
+              >genres <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#webSeries" class="hover:text-neutral-600">
+              web Series <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#anime" class="hover:text-neutral-600">
+              Anime <i class="fa fa-angle-down"></i>
+            </a>
           </div>
         </div>
         <!-- Right Container -->
@@ -184,11 +194,16 @@
   <script>
     const elementSelector = (element) => document.querySelector(element);
 
-    elementSelector(".hamburger").addEventListener("click", () => {
+    const handleToggle = () => {
       if (elementSelector(".mobileMenu").classList.contains("hidden")) {
         return elementSelector(".mobileMenu").classList.remove("hidden");
       }
       elementSelector(".mobileMenu").classList.add("hidden");
+    };
+
+    elementSelector(".hamburger").addEventListener("click", handleToggle);
+    document.querySelectorAll("nav a").forEach((link) => {
+      link.addEventListener("click", handleToggle);
     });
   </script>
 </html>
