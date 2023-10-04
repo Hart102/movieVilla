@@ -853,6 +853,10 @@ video {
     gap: 5rem;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:p-20 {
     padding: 5rem;
   }
