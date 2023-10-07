@@ -101,80 +101,82 @@
     </nav>
 
     <!-- ---------------- -->
-    <main class="w-screen mt-12 lg:mt-14 lg:h-[80vh]">
-      <img src="./images/bannerImage.png" class="w-full lg:h-full" />
+    <main class="w-screen mt-12 lg:mt-14">
+      <!-- <div class="w-full h-[75vh] relative bg-red-500"> -->
+      <img src="./images/bannerImage.png" class="w-full h-[38vh] lg:h-[75vh]" />
+      <!-- </div> -->
+
+      <!-- Render movies here -->
+      <section
+        class="container mx-auto text-white text-sm px-5 py-10 lg:p-20"
+        id="section-container"
+      >
+        <!-- -------Latest--------->
+        <div class="flex flex-col gap-10 pb-20">
+          <div class="flex justify-between items-center">
+            <p class="font-bold lg:text-3xl">latest and trending</p>
+            <p class="text-xs">View all</p>
+          </div>
+          <!-- Render latest movies here -->
+          <div
+            class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
+            id="latest"
+          ></div>
+        </div>
+
+        <!-- Bollywood -->
+        <div class="flex flex-col gap-10 pb-20">
+          <div class="flex justify-between items-center">
+            <p class="font-bold lg:text-3xl">Bollywood</p>
+            <p class="text-xs">View all</p>
+          </div>
+          <!-- Render bollywood movies here -->
+          <div
+            class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
+            id="bollywood"
+          ></div>
+        </div>
+
+        <!-- Hollywood -->
+        <div class="flex flex-col gap-10 pb-20">
+          <div class="flex justify-between items-center">
+            <p class="font-bold lg:text-3xl">Hollywood</p>
+            <p class="text-xs">View all</p>
+          </div>
+          <!-- Render hollywood movies here -->
+          <div
+            class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
+            id="hollywood"
+          ></div>
+        </div>
+
+        <!-- Web Series -->
+        <div class="flex flex-col gap-10 pb-20">
+          <div class="flex justify-between items-center">
+            <p class="font-bold lg:text-3xl">Web series</p>
+            <p class="text-xs">View all</p>
+          </div>
+          <!-- Render Web Series movies here -->
+          <div
+            class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
+            id="webSeries"
+          ></div>
+        </div>
+
+        <!-- Anime -->
+        <div class="flex flex-col gap-10 pb-20">
+          <div class="flex justify-between items-center">
+            <p class="font-bold lg:text-3xl">Anime</p>
+            <p class="text-xs">View all</p>
+          </div>
+          <!-- Render anime movies here -->
+          <div
+            class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
+            id="anime"
+          ></div>
+        </div>
+      </section>
     </main>
-
-    <!-- Render movies here -->
-    <section
-      class="container mx-auto text-white text-sm px-5 py-10 lg:p-20"
-      id="section-container"
-    >
-      <!-- -------Latest--------->
-      <div class="flex flex-col gap-10 pb-20">
-        <div class="flex justify-between items-center">
-          <p class="font-bold lg:text-3xl">latest and trending</p>
-          <p class="text-xs">View all</p>
-        </div>
-        <!-- Render latest movies here -->
-        <div
-          class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
-          id="latest"
-        ></div>
-      </div>
-
-      <!-- Bollywood -->
-      <div class="flex flex-col gap-10 pb-20">
-        <div class="flex justify-between items-center">
-          <p class="font-bold lg:text-3xl">Bollywood</p>
-          <p class="text-xs">View all</p>
-        </div>
-        <!-- Render bollywood movies here -->
-        <div
-          class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
-          id="bollywood"
-        ></div>
-      </div>
-
-      <!-- Hollywood -->
-      <div class="flex flex-col gap-10 pb-20">
-        <div class="flex justify-between items-center">
-          <p class="font-bold lg:text-3xl">Hollywood</p>
-          <p class="text-xs">View all</p>
-        </div>
-        <!-- Render hollywood movies here -->
-        <div
-          class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
-          id="hollywood"
-        ></div>
-      </div>
-
-      <!-- Web Series -->
-      <div class="flex flex-col gap-10 pb-20">
-        <div class="flex justify-between items-center">
-          <p class="font-bold lg:text-3xl">Web series</p>
-          <p class="text-xs">View all</p>
-        </div>
-        <!-- Render Web Series movies here -->
-        <div
-          class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
-          id="webSeries"
-        ></div>
-      </div>
-
-      <!-- Anime -->
-      <div class="flex flex-col gap-10 pb-20">
-        <div class="flex justify-between items-center">
-          <p class="font-bold lg:text-3xl">Anime</p>
-          <p class="text-xs">View all</p>
-        </div>
-        <!-- Render anime movies here -->
-        <div
-          class="grid grid-cols-2 gap-5 lg:gap-10 lg:grid-cols-5"
-          id="anime"
-        ></div>
-      </div>
-    </section>
 
     <footer
       class="container mx-auto flex flex-col gap-5 items-center text-sm text-white py-20"
